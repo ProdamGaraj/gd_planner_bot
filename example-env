@@ -1,0 +1,14 @@
+BOT_TOKEN=
+ADMIN_ID=
+# Проверка SSL Telegram API: 0 — выключена (сеть офиса ломает сертификаты), 1 — включена
+TELEGRAM_SSL_VERIFY=0
+# BOT_PROXY=http://proxy:3128
+# DATABASE_URL=sqlite:///./data/gd_planner.db
+DEFAULT_COOLDOWN_DAYS=7
+# На сколько дней вперёд открыта запись
+BOOKING_HORIZON_DAYS=60
+# OFFICE_PHONE=+998781485115
+# OFFICE_ADDRESS_RU=г. Ташкент, улица Истикбол, 39Б
+# OFFICE_ADDRESS_UZ=Toshkent sh., Istiqbol ko'chasi, 39B
+# OFFICE_LATITUDE=41.302006
+# OFFICE_LONGITUDE=69.292259

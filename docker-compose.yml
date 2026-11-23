@@ -1,0 +1,14 @@
+services:
+  gd_planner_bot:
+    build: .
+    container_name: gd_planner_bot_app
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
